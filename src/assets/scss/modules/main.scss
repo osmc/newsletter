@@ -8,8 +8,8 @@ a, a:visited {
   border-bottom: 2px solid rgba(0,0,0,0.08);
 
   &:hover {
-    color: $link-h;
-    border-bottom: 2px solid $blue3;
+    color: $link-h !important;
+    border-bottom: 2px solid $blue3 !important;
   }
 }
 

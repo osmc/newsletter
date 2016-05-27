@@ -23,7 +23,6 @@ $back: $green1;
   }
 
   &-social {
-
     .columns {
       padding-bottom: 5px;
     }
@@ -31,9 +30,10 @@ $back: $green1;
     p {
       font-size: 15px;
     }
+
     a, a:visited {
       font-size: 14px;
-      border-bottom: 0px;
+      border-bottom: 0px !important;
       text-decoration: underline;
     }
 
@@ -44,11 +44,11 @@ $back: $green1;
   }
 
   &-desc {
-
     p {
       font-size: 13px;
       border-left: 2px solid $grey2;
       padding-left: 10px;
+      padding-right: 10px;
     }
   }
 
@@ -60,7 +60,7 @@ $back: $green1;
       margin: 0;
     }
     a, a:visited {
-      border-bottom: 0px;
+      border-bottom: 0px !important;
       text-decoration: underline;
       font-size: 13px;
     }
