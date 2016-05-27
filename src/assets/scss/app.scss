@@ -2,14 +2,16 @@
 
 @import "settings";
 @import "foundation";
-
+@import "partials/var";
 
 table.body {
-  @import "partials/var";
+  @import "modules/main";
+  @import "modules/post";
   @import "modules/header";
   @import "modules/footer";
 }
 
 html, body, table.body {
-  background-color: #e8e8e8;
+  background-color: $back;
+  background: $back;
 }

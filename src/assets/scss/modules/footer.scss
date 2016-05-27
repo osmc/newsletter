@@ -1,3 +1,68 @@
-.footer {
-  background-color: $grey3;
+$back: $green1;
+
+.footer {
+  background-color: $back;
+  background: $back;
+
+  p {
+    color: $grey3;
+  }
+
+  a, a:visited {
+    color: $grey3 !important;
+  }
+
+  &-links {
+    border-bottom: 2px solid $blue1;
+
+    a, a:visited {
+      font-size: 17px;
+      color: $black !important;
+      text-decoration: none;
+    }
+  }
+
+  &-social {
+
+    .columns {
+      padding-bottom: 5px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+    a, a:visited {
+      font-size: 14px;
+      border-bottom: 0px;
+      text-decoration: underline;
+    }
+
+    .title {
+      font-size: 16px;
+      margin: 0px;
+    }
+  }
+
+  &-desc {
+
+    p {
+      font-size: 13px;
+      border-left: 2px solid $grey2;
+      padding-left: 10px;
+    }
+  }
+
+  &-meta {
+    .columns {
+      padding-bottom: 8px;
+    }
+    p {
+      margin: 0;
+    }
+    a, a:visited {
+      border-bottom: 0px;
+      text-decoration: underline;
+      font-size: 13px;
+    }
+  }
 }

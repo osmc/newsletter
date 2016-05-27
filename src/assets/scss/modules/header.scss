@@ -1,15 +1,15 @@
 .header {
   background-color: $grey1;
+  background: $grey1;
   border-bottom: 2px solid $c-main;
-  
+
   &-logo {
     width: 130px !important;
   }
-  
+
   &-text {
     font-size: 14px;
-    color: $grey2;
+    color: $grey3;
     margin-bottom: 0px;
-    margin-top: 2px;
   }
 }
