@@ -17,6 +17,10 @@ h2,h3,h4 {
   margin-top: 16px;
 }
 
+ul {
+  padding-left: 20px !important;
+}
+
 .res-hide {
   @include res {
     display: none !important;
