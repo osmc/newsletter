@@ -1,6 +1,10 @@
+.body.container {
+  float: none !important;
+}
+
 .post {
   &-title {
     font-weight: 300;
-    margin-bottom: 18px;
+    margin-bottom: 18px !important;
   }
 }
