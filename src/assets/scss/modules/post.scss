@@ -2,6 +2,12 @@
   float: none !important;
 }
 
+.body {
+  img {
+    height: auto !important;
+  }
+}
+
 .post {
   &-title {
     font-weight: 300;
