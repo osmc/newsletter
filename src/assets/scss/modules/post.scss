@@ -1,16 +1,20 @@
-.body.container {
-  float: none !important;
-}
-
-.body {
-  img {
-    height: auto !important;
-  }
-}
-
 .post {
+  &.container {
+    float: none !important;
+  }
   &-title {
     font-weight: 300;
     margin-bottom: 18px !important;
+  }
+  img {
+    height: auto !important;
+    padding: 10px 0px;
+
+    &.emoji {
+      width: 20px !important;
+      display: inline-block !important;
+      vertical-align: middle !important;
+      padding: 0px !important;
+    }
   }
 }
